@@ -1,0 +1,23 @@
+{
+    "name": "itimum/yii2-history-comment",
+    "description": "Action Comment",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aigletter",
+            "email": "aigletter@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "itimum/yii2-model-history": "dev-master",
+        "itimum/yii2-model-comment": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "itimum\\actionComment\\": ""
+        }
+    }
+}
