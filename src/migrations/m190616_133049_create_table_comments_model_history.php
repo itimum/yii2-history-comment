@@ -19,7 +19,7 @@ class m190616_133049_create_table_comments_model_history extends Migration
 
         $this->addForeignKey('fk-model_history-model_history_model_comment', '{{%model_history_model_comment%}}', 'model_history_id',
             '{{%model_history%}}', 'id');
-        $this->addForeignKey('fk-model_comment-model_history_model_comment', '{{%model_history_model_comment%}}', 'comments_id',
+        $this->addForeignKey('fk-model_comment-model_history_model_comment', '{{%model_history_model_comment%}}', 'model_comment_id',
             '{{%model_comment%}}', 'id');
     }
 
