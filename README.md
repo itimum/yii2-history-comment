@@ -21,6 +21,13 @@ or add
 
 to the require section of your `composer.json` file.
 
+Migration
+----
+
+```
+php yii migrate --migrationPath=@itimum/historyComment/migrations
+```
+
 
 Usage
 -----
